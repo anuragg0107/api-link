@@ -14,6 +14,7 @@ app.use("/data",userRouter)
 app.get("/",(req,res)=>{
     res.send("this is home page")
 })
+// h
 
 app.listen(4000,()=>{
     console.log("this is running at port 4000");
